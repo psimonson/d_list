@@ -181,7 +181,6 @@ static void dlist_destroy(struct DLIST **root)
             tmp = NULL;
             dlist_iterator_init(next);
         }
-        free(*root);
         *root = NULL;
     }
 }
